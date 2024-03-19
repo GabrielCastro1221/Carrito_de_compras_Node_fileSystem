@@ -1,0 +1,110 @@
+[
+    {
+        "id": "6bcb28dd-a718-419d-a9a7-38bb53300957",
+        "title": "April Skateboards OG Logo Red 8.375",
+        "description": "Tabla suave y versátil con un cóncavo suave y extremos ligeramente inclinados. • Deck ideal para realizar tus mejores trucos y saltos de alto impacto",
+        "price": 125000,
+        "thumbnail": "url",
+        "stock": 35,
+        "category": "Patineta"
+    },
+    {
+        "id": "84fe34b2-1051-402b-a54f-e778b11a8b8d",
+        "title": "Santa Cruz SkateBoard",
+        "description": "!!IMPERDIBLE!! Edición limitada—Surfskate Santa Cruz x Carver Screaming Hand Check - 9.80 x 30.20",
+        "price": 112000,
+        "thumbnail": "url",
+        "code": "3bb53121-b2e0-4553-8d8c-907c6978f168",
+        "stock": 25,
+        "status": true,
+        "category": "Patineta"
+    },
+    {
+        "id": "eee7b53a-6423-41af-b272-07162440ffed",
+        "title": "Creature SkateBoard",
+        "description": "Los componentes tales como ejes, ruedas y rodamientos se venden por separado. \n Nota: Viene sin lija aplicada encima. Los colores y los gráficos pueden variar ligeramente de la imagen",
+        "price": 110000,
+        "thumbnail": "url",
+        "code": "ff51e5e6-f54c-4fe4-88bb-1feaad1209d5",
+        "stock": 15,
+        "status": true,
+        "category": "Patineta"
+    },
+    {
+        "id": "80daede0-e584-4b22-a515-62131c395588",
+        "title": "Flip SkateBoard David Gonzales",
+        "description": "TABLA DE SKATE FLIP + LIJA DE GOMA IMPORTADA PREMIUM FLIP SKATEBOARDS",
+        "price": 105000,
+        "thumbnail": "url",
+        "code": "1235bb55-14a8-4c87-9994-f31418e38566",
+        "stock": 45,
+        "status": true,
+        "category": "Patineta"
+    },
+    {
+        "id": "932df120-0288-47e0-80db-fc17c249e269",
+        "title": "Trucks Skate Independent 149mm Stage 11 Hollow Delfino",
+        "description": "TRUCKS INDEPENDENT STAGE XI HOLLOW 149MM PRO MODEL PEDRO DELFINO DOBLE HOLLOW( KINGPIN Y EJE HUECO) ALA Y BASE DE ALUMINIO A356 T6 KINGPIN Y EJE DE ACERO CROMADO HUECO SUPER LIVIANOS",
+        "price": 115000,
+        "thumbnail": "url",
+        "code": "ef4836d8-a71d-45e8-9e64-1a4b3341fa71",
+        "stock": 35,
+        "status": true,
+        "category": "Trucks"
+    },
+    {
+        "id": "2f2d5254-800d-41b8-898e-44a7ad91a7b4",
+        "title": "Trucks Skate Independent 149mm Stage 11 Standard X Slayer",
+        "description": "TRUCKS INDEPENDENT STANDARD STAGE XI x SLAYER 149MM EDICIÓN LIMITADA EN COLABORACIÓN CON LA BANDA SLAYER ALA Y BASE DE ALUMINIO A356 T6 KINGPIN Y EJE DE ACERO CROMADO 55mm DE ALTO",
+        "price": 110000,
+        "thumbnail": "url",
+        "code": "4dc30c08-ec31-425b-8bf0-3f565587bb34",
+        "stock": 35,
+        "status": true,
+        "category": "Trucks"
+    },
+    {
+        "id": "4d736037-2163-49f9-ae57-dd51ce8724dc",
+        "title": "Stage 11 Bar Flat Black Standard Independent Skateboard Trucks",
+        "description": "Los ejes de bar Independent Trucks cuentan con soporte y placa base negros planos con estampado de barra de 2 colores, cojines rojos y copa pivotante, y herrajes negros y rojos.",
+        "price": 100000,
+        "thumbnail": "url",
+        "code": "9393954b-1be2-4661-a1d2-c376830934ee",
+        "stock": 25,
+        "status": true,
+        "category": "Trucks"
+    },
+    {
+        "id": "d55c9a13-b986-4d4e-afe7-ca08687c4443",
+        "title": "RUEDAS OJ ELITE 54MM 99A (WHEOJ003)",
+        "description": "Diámetro: 54mm Dureza: 99A  Superficie de contacto: 23mm.",
+        "price": 100000,
+        "thumbnail": "url",
+        "code": "e09572d4-ab25-4585-add0-d098bc0f3aed",
+        "stock": 15,
+        "status": true,
+        "category": "Ruedas"
+    },
+    {
+        "id": "844e117b-949f-4966-afc3-95d66eb4a582",
+        "title": "Ruedas Skate Spitfire Wheels 52mm 101d Conical Full",
+        "description": "Diámetro: 54mm Dureza: 99A Ancho total de rueda: 35mm Superficie de contacto: 23mm.",
+        "price": 108000,
+        "thumbnail": "url",
+        "code": "925659a8-431b-4b16-b394-fca820073b74",
+        "stock": 65,
+        "status": true,
+        "category": "Ruedas"
+    },
+    {
+        "id": "80b7f8a8-712e-40c2-a013-9b6d31dd6072",
+        "title": "Powell Peralta Oval Dragon Wheel 56mm 90a",
+        "description": "fabricada por la reconocida marca Powell Peralta. Esta rueda tiene un diámetro de 56mm, lo que la hace ideal para aquellos skaters que buscan un equilibrio perfecto entre velocidad y estabilidad. Su dureza de 90A indica que es una rueda de dureza media, lo que significa que puede soportar una variedad de superficies de patinaje, desde las más suaves hasta las más rugosas. Está hecha de uretano, un material conocido por su resistencia y durabilidad, lo que garantiza que estas ruedas te durarán mucho tiempo",
+        "price": 67000,
+        "thumbnail": "url",
+        "code": "b6bd310b-72bb-4661-b61e-cb91b706645b",
+        "stock": 36,
+        "status": true,
+        "category": "Ruedas"
+    }
+]
