@@ -2,7 +2,7 @@ import { Router } from "express";
 import ProductManager from "../Managers/productManager.js";
 
 const productRouter = Router();
-const prod = new ProductManager();
+const prod = new ProductManager("./src/models/productos.json");
 
 // http://localhost:8080/api/products
 productRouter.post("/", async (req, res) => {

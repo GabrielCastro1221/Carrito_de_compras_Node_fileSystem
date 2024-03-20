@@ -2,8 +2,8 @@ import { promises as fs } from "fs";
 import { v4 as uuidv4 } from "uuid";
 
 class ProductManager {
-  constructor() {
-    this.path = "./src/models/productos.json";
+  constructor(path) {
+    this.path = path;
     this.products = []
   }
 
@@ -21,28 +21,28 @@ class ProductManager {
     return products.find((prod) => prod.id === id);
   };
 
-  addProduct = async (Product) => {
-    const { title, description, price, thumbnail, stock, category } = Product;
-    if (title || description || price || thumbnail || stock || category) {
-      let id = uuidv4();
-      let code = uuidv4();
-      let status = true;
-      const cod = productCode => productCode.codigo === code;
-      const pId = productId => productId.id === id;
-      if (this.products.some(pId)) {
-        return `\n El producto con el id # ${pId} ya se encuentra registrado... \n`;
-      } else if (this.products.some(cod)) {
-        return `\n El producto con el codigo ${cod} ya se encuentra registrado... \n`;
-      } else
-        Product = { id, title, description, price, thumbnail, code, stock, status, category }
-      this.products = await this.getProducts();
-      this.products.push(Product);
-      await fs.writeFile(this.path, JSON.stringify(this.products));
-      return Product;
-    } else {
-      return "Debes llenar todos los campos";
-    }
-  }
+  addProduct = async (product) => {
+    const { title, description, price, thumbnail, stock, category } = product;
+
+    if (title && description && price && thumbnail && stock && category) {
+        const id = uuidv4();
+        const code = uuidv4();
+        const status = true;
+        const Id = prodId => prodId.id === id;
+        const cod = prodCode => prodCode.code === code;
+
+        if (this.products.some(Id)) return `El Producto con el id ${id} ya se encuentra registrado`;
+        if (this.products.some(cod)) return `El Producto con el codigo ${code} ya se encuentra registrado`;
+
+
+        product = { id, title, description, price, thumbnail, code, status, stock, category }
+        this.products = await this.getProducts();
+        this.products.push(product)
+        await fs.writeFile(this.path, JSON.stringify(this.products))
+        return product
+    } else
+        return "Debes completar todos los campos";
+}
 
   getProducts = async () => {
     const read = await fs.readFile(this.path, "utf-8");

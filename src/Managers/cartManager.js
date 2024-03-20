@@ -5,8 +5,8 @@ import ProductManager from "./productManager.js";
 const productAll = new ProductManager();
 
 class CartManager {
-  constructor() {
-    this.path = "./src/models/carts.json";
+  constructor(path) {
+    this.path = path;
   }
 
   readCart = async () => {
